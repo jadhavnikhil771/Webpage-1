@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px;
+    padding-left: 30px;
+    background-color: rgb(207, 11, 11);
+    color: white;
+}
+section aside{
+    width: 15%;
+    padding: 15px;
+    background-color: rgb(136, 202, 30);  
+    color: white; 
+    float: left; 
+}
+section aside ul{
+    list-style: none;
+}
+aside li{
+    padding: 3px 5px;
+    border-bottom: 1px solid #fff;
+}
+aside  h3{
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+section main{
+    width: 85%;
+    float: left;
+    padding: 15px;
+}
+section main h2{
+    padding-top: 15px;
+   padding-bottom: 15px;
+   color: rgb(30, 100, 141);
+}
+main h2{
+    border-bottom:1px solid rgb(209, 200, 200);
+}
+main p{
+    padding-top: 10px;
+}
+div{
+    padding:  5px;
+    text-align: center;
+    background-color: rgb(207, 11, 11);
+    color: white;
+    clear: both;
+}
+
+
+@media screen and (max-width:767px) {
+    section aside{
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+    }
+    section aside ul li{
+        padding-left: 30px;
+        font-size: 18px;
+    }
+    section main{
+        width: 100%;
+        padding: 15px;
+    }
+}
+@media  screen and (max-width:375px) {
+    section main h2{
+        font-size: 22px;
+    }
+}
